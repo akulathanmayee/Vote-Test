@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int age;
+  cout<<"\npress 1 if your age is below 18";
+	cout<<"\npress any other number if your age is above 18";
+	cout<<"\nEnter the number according to your age:";
+	cin>>age;
+	if(age==1)
+	{
+		cout<<"\nYou are not eligible to vote";
+	}
+	    else
+	{
+		cout<<"\nYou are eligible to vote";
+	}
+	  return 0;
+}
